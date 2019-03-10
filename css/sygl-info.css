@@ -1,0 +1,174 @@
+.crumbs-wrapper {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.sygl-info-wrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  height: calc(100% - 60px);
+}
+.sygl-info-wrapper .sygl-info-content {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.sygl-info-wrapper .sygl-info-content .title {
+  font-size: 20px;
+  color: #000000;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .subtitle {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eef0f5;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .subtitle b {
+  float: right;
+  cursor: pointer;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .register-form {
+  padding: 20px 0 30px 0;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .register-form .form-item li {
+  width: 30%;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .register-form .form-item li .form-label {
+  float: left;
+  width: 60px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: right;
+  font-size: 12px;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .register-form .form-item li > input {
+  float: left;
+  width: 65%;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .register-form .form-item li .layui-form-select {
+  position: relative;
+  width: 40%;
+  float: left;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .register-form .form-item li .layui-textarea {
+  min-height: 100px;
+  height: auto;
+  line-height: 20px;
+  padding: 6px 10px;
+  resize: vertical;
+  width: 80%;
+  float: left;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .register-form #preimg #uploadimg {
+  float: left;
+  width: 120px;
+  height: 96px;
+  background-image: url("../img/uploadbyn.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .register-form #preimg .layui-upload-img {
+  vertical-align: middle;
+  float: left;
+  width: 120px;
+  height: 96px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .choose-file {
+  padding-top: 20px;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .choose-file .form-label {
+  float: left;
+  width: 60px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: right;
+  font-size: 12px;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .choose-file > input {
+  float: left;
+  height: 28px;
+  width: 200px;
+  border: 1px solid #c4c6cf;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding-left: 8px;
+}
+.sygl-info-wrapper .sygl-info-content .search-form .choose-file button {
+  background: #5584ff;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 10px;
+  margin-left: 15px;
+}
+.sygl-info-wrapper .sygl-info-content .table-btn {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  border-bottom: 1px solid #eef0f5;
+}
+.sygl-info-wrapper .sygl-info-content .table-btn .save-btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px 10px;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 12px;
+  background-color: #5584ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.sygl-info-wrapper .sygl-info-content .table-btn .close-btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 12px;
+  border: 1px solid #5584ff;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #5584ff;
+}
+.sygl-info-wrapper .sygl-info-content .yhxx-btns {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  text-align: right;
+  border-bottom: 1px solid #eef0f5;
+}
+.sygl-info-wrapper .sygl-info-content .yhxx-btns .save-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 38px;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 12px;
+  background-color: #5584ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.sygl-info-wrapper .sygl-info-content .yhxx-btns .close-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 38px;
+  border: 1px solid #5584ff;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #5584ff;
+}
+.sygl-info-wrapper .layui-table-page > div {
+  height: 26px;
+  float: right;
+}

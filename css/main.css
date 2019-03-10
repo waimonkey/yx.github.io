@@ -1,0 +1,17 @@
+.main-wrapper {
+  height: calc(100% - 60px);
+  display: flex;
+  width: 100%;
+}
+.main-wrapper .sidebarpage {
+  width: 240px;
+  height: 100%;
+}
+.main-wrapper .content-wapper {
+  width: calc(100% - 240px);
+  background-color: #fff;
+}
+.main-wrapper .content-wapper .change-content {
+  height: 100%;
+  background-color: #EEF0F5;
+}

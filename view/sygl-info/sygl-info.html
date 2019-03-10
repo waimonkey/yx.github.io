@@ -1,0 +1,158 @@
+<link rel="stylesheet" href="../../lib/layui/layui.css" />
+<script src="../../lib/cityPicker/js/city-picker.data.js"></script>
+<script src="../../lib/cityPicker/js/city-picker.js"></script>
+
+<link rel="stylesheet" href="../../lib/cityPicker/css/city-picker.css" />
+<!-- <link rel="stylesheet" href="../../css/registerinfo.css" /> -->
+<!-- 面包屑 -->
+<div class="crumbs-wrapper">
+  <span class="layui-breadcrumb">
+    <a href="javascript:;">遗骸受理</a>
+    <a href="javascript:;" id="tosygl">实验管理</a>
+    <a><cite>实验详情信息</cite></a>
+  </span>
+</div>
+<!-- 内容 -->
+<div class="sygl-info-wrapper">
+  <div class="sygl-info-content">
+    <div class="title">实验详情信息</div>
+    <div class="search-form">
+      <div class="subtitle">基本信息</div>
+      <div class="register-form">
+        <form class="layui-form clearfix" action="">
+          <ul class="form-item clearfix">
+            <li>
+              <label class="form-label">遗骸编号：</label>
+              <input
+                type="text"
+                name="title"
+                required
+                lay-verify="required"
+                placeholder="请输入遗骸编号"
+                autocomplete="off"
+                class="layui-input"
+              />
+            </li>
+            <li>
+              <label class="form-label">实验编号</label>
+              <input
+                type="text"
+                name="title"
+                required
+                lay-verify="required"
+                placeholder="请输入实验编号"
+                autocomplete="off"
+                class="layui-input"
+              />
+            </li>
+            <li>
+              <label class="form-label">实验日期：</label>
+              <input
+                type="text"
+                placeholder="选择时间"
+                class="layui-input"
+                id="rejssj"
+              />
+            </li>
+          </ul>
+          <ul class="form-item  clearfix">
+            <li>
+              <label class="form-label">实验方法：</label>
+              <select name="city" lay-verify="required">
+                <option value="">常染色体</option>
+                <option value="0">常染色体1</option>
+                <option value="1">常染色体2</option>
+              </select>
+            </li>
+            <li>
+              <label class="form-label">试剂盒：</label>
+              <input
+                type="text"
+                name="title"
+                required
+                lay-verify="required"
+                placeholder="请输入姓名"
+                autocomplete="off"
+                class="layui-input"
+              />
+            </li>
+            <li>
+              <label class="form-label">实验人员：</label>
+              <input
+                type="text"
+                name="title"
+                required
+                lay-verify="required"
+                placeholder="请输入姓名"
+                autocomplete="off"
+                class="layui-input"
+              />
+            </li>
+          </ul>
+          <ul class="form-item  clearfix">
+            <li>
+              <label class="form-label">实验平台：</label>
+              <input
+                type="text"
+                name="title"
+                required
+                lay-verify="required"
+                placeholder="请输入实验平台"
+                autocomplete="off"
+                class="layui-input"
+              />
+            </li>
+          </ul>
+          <div class="upload">
+            <p>采样照片：</p>
+            <div class="layui-upload-list clearfix" id="preimg">
+              <img
+                class="layui-upload-img"
+                src="../../img/Avatar.png"
+                alt=""
+                srcset=""
+              />
+              <img
+                class="layui-upload-img"
+                src="../../img/Avatar.png"
+                alt=""
+                srcset=""
+              />
+              <img
+                class="layui-upload-img"
+                src="../../img/Avatar.png"
+                alt=""
+                srcset=""
+              />
+              <img
+                class="layui-upload-img"
+                src="../../img/Avatar.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="subtitle">实验报告数据</div>
+      <div class="choose-file">
+        <label class="form-label">上传文件：</label>
+        <input type="text" placeholder="请输入遗骸编号" />
+        <button>导入文件</button>
+        <button>手工添加</button>
+        <button>重置</button>
+      </div>
+    </div>
+    <table id="demo" lay-filter="test"></table>
+    <div class="table-btn">
+      <button class="save-btn">修改</button>
+      <button class="close-btn">保存</button>
+    </div>
+    <div class="yhxx-btns">
+      <button class="save-btn">保存</button>
+      <button class="close-btn">关闭</button>
+    </div>
+  </div>
+</div>
+<script src="../../lib/layui/layui.all.js"></script>
+<script src="./view/sygl-info/sygl-info.js"></script>

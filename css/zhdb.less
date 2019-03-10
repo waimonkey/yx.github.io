@@ -1,0 +1,143 @@
+.crumbs-wrapper {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.zh-contrast-wrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  height: e("calc(100% - 60px)");
+  .zh-contrast-content {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    .title {
+      font-size: 20px;
+      color: #000000;
+    }
+    .search-form {
+      border-bottom: 1px solid #eef0f5;
+      .subtitle {
+        font-size: 16px;
+        color: #000000;
+        margin-top: 20px;
+        b {
+          float: right;
+          cursor: pointer;
+        }
+      }
+      .search-form-item {
+        li {
+          float: left;
+          width: 30%;
+          margin-right: 20px;
+          margin-top: 16px;
+          font-size: 12px;
+          .form-label {
+            float: left;
+            width: 60px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: right;
+            font-size: 12px;
+            color: #929292;
+          }
+          & > .layui-input {
+            height: 28px;
+            line-height: 28px;
+            border-width: 1px;
+            border-style: solid;
+            background-color: #fff;
+            border-radius: 2px;
+            float: left;
+            width: 65%;
+          }
+          .layui-form-select {
+            position: relative;
+            width: 70%;
+            float: left;
+            .layui-input {
+              height: 28px;
+              line-height: 28px;
+              border-width: 1px;
+              border-style: solid;
+              background-color: #fff;
+              border-radius: 2px;
+            }
+          }
+          .yhxx-btns {
+            float: left;
+            padding-bottom: 30px;
+            text-align: center;
+            .search-btn {
+              display: inline-block;
+              vertical-align: middle;
+              width: 80px;
+              height: 28px;
+              font-size: 12px;
+              color: #ffffff;
+              line-height: 12px;
+              background-color: #5584ff;
+              border: 1px solid transparent;
+              border-radius: 3px;
+              border-radius: 3px;
+              margin-right: 10px;
+            }
+            .reset-btn {
+              display: inline-block;
+              vertical-align: middle;
+              width: 50px;
+              height: 28px;
+              border: 1px solid #5584ff;
+              border-radius: 3px;
+              border-radius: 3px;
+              background-color: #fff;
+              color: #5584ff;
+            }
+          }
+        }
+      }
+    }
+
+    .table-wrapper {
+      padding: 20px 0;
+      .subtitle {
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 20px;
+      }
+      .layui-tab-title li {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        vertical-align: middle;
+        font-size: 12px;
+        transition: all .2s;
+        -webkit-transition: all .2s;
+        position: relative;
+        line-height: 40px;
+        min-width: 65px;
+        padding: 0 15px;
+        text-align: center;
+        cursor: pointer;
+        color: #666;
+    }
+      .layui-tab-brief > .layui-tab-title .layui-this {
+        color: #5584ff;
+      }
+      .layui-tab-brief > .layui-tab-more li.layui-this:after,
+      .layui-tab-brief > .layui-tab-title .layui-this:after {
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px solid #5584ff;
+      }
+    }
+  }
+  .layui-table-page > div {
+    height: 26px;
+    float: right;
+  }
+}

@@ -1,0 +1,67 @@
+.headerpage .header-wrapper {
+  height: 60px;
+  background-color: #524e91;
+  box-sizing: border-box;
+  padding: 0 20px;
+  color: #fff;
+  background: -webkit-linear-gradient(left, #3d3e7f, #7f70b6);
+  /* Safari 5.1 - 6 */
+  background: -o-linear-gradient(right, #3d3e7f, #7f70b6);
+  /* Opera 11.1 - 12*/
+  background: -moz-linear-gradient(right, #3d3e7f, #7f70b6);
+  /* Firefox 3.6 - 15*/
+  background: linear-gradient(to right, #3d3e7f, #7f70b6);
+}
+.headerpage .header-wrapper .logo {
+  padding-top: 11px;
+  float: left;
+}
+.headerpage .header-wrapper .avatar-wrapper {
+  position: relative;
+  float: right;
+  min-width: 150px;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.headerpage .header-wrapper .avatar-wrapper .avatat-content {
+  cursor: pointer;
+}
+.headerpage .header-wrapper .avatar-wrapper .avatat-content img {
+  float: left;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+.headerpage .header-wrapper .avatar-wrapper .avatat-content span {
+  margin-left: 10px;
+  float: left;
+}
+.headerpage .header-wrapper .avatar-wrapper .avatat-content b {
+  float: right;
+  line-height: 60px;
+}
+.headerpage .header-wrapper .avatar-wrapper .avatat-list {
+  position: absolute;
+  top: 55px;
+  left: 30px;
+  width: 120px;
+  background-color: #fff;
+  display: none;
+}
+.headerpage .header-wrapper .avatar-wrapper .avatat-list ul {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+}
+.headerpage .header-wrapper .avatar-wrapper .avatat-list ul li {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+  margin: 10px 0;
+  color: #666;
+}
+.headerpage .header-wrapper .avatar-wrapper .avatat-list ul li:hover {
+  background-color: pinnk;
+}

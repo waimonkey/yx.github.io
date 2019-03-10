@@ -1,0 +1,75 @@
+<link rel="stylesheet" href="../../lib/layui/layui.css" />
+<script src="../../lib/cityPicker/js/city-picker.data.js"></script>
+<script src="../../lib/cityPicker/js/city-picker.js"></script>
+
+<link rel="stylesheet" href="../../lib/cityPicker/css/city-picker.css" />
+<!-- <link rel="stylesheet" href="../../css/yhxx.css" /> -->
+<!-- 面包屑 -->
+<div class="crumbs-wrapper">
+  <span class="layui-breadcrumb">
+    <a href="">遗骸受理</a>
+    <a><cite>综合比对</cite></a>
+  </span>
+</div>
+<!-- 内容 -->
+<div class="zh-contrast-wrapper">
+  <div class="zh-contrast-content">
+    <div class="title">综合比对</div>
+    <div class="search-form">
+      <form class="layui-form search-form-item  clearfix">
+        <ul class="search-form-item clearfix">
+          <li>
+            <label class="form-label">接收时间：</label>
+
+            <input
+              type="text"
+              name="title"
+              required
+              lay-verify="required"
+              placeholder="遗骸编号："
+              autocomplete="off"
+              class="layui-input"
+            />
+          </li>
+          <li>
+            <label class="form-label">实验编号：</label>
+
+            <select name="city" lay-verify="required">
+              <option value="">实验编号</option>
+              <option value="0">实验编号1</option>
+              <option value="1">实验编号2</option>
+            </select>
+          </li>
+          <li>
+            <div class="yhxx-btns">
+              <button class="search-btn">开始对比</button>
+            </div>
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <div class="table-wrapper">
+      <div class="subtitle">比对结果</div>
+      <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+        <ul class="layui-tab-title">
+          <li class="layui-this">常染色体</li>
+          <li>Y染色体</li>
+          <li>X染色体</li>
+          <li>SNAP</li>
+          <li>线粒体</li>
+        </ul>
+        <div class="layui-tab-content">
+          <div class="layui-tab-item layui-show">
+            <table id="demo" lay-filter="test"></table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../../lib/layui/layui.all.js"></script>
+<script src="./view/zhdb/zhdb.js"></script>
+<script type="text/html" id="titleTpl">
+  <a href="javascript:;" title="sygl" class="layui-table-link">{{d.score}}</a>
+</script>

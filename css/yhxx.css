@@ -1,0 +1,105 @@
+.crumbs-wrapper {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.yhxx-wrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  height: calc(100% - 60px);
+}
+.yhxx-wrapper .yhxx-content {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.yhxx-wrapper .yhxx-content .title {
+  font-size: 20px;
+  color: #000000;
+}
+.yhxx-wrapper .yhxx-content .search-form .subtitle {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 20px;
+}
+.yhxx-wrapper .yhxx-content .search-form .subtitle b {
+  float: right;
+  cursor: pointer;
+}
+.yhxx-wrapper .yhxx-content .search-form .search-form-item li {
+  float: left;
+  width: 30%;
+  margin-right: 30px;
+  margin-top: 16px;
+}
+.yhxx-wrapper .yhxx-content .search-form .other-options li {
+  float: left;
+  width: 12%;
+  margin-right: 30px;
+  margin-top: 16px;
+}
+.yhxx-wrapper .yhxx-content .yhxx-btns {
+  margin-top: 30px ;
+  padding-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid #EEF0F5;
+}
+.yhxx-wrapper .yhxx-content .yhxx-btns .search-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 28px;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 12px;
+  background-color: #5584ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.yhxx-wrapper .yhxx-content .yhxx-btns .reset-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 28px;
+  border: 1px solid #5584ff;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #5584ff;
+}
+.yhxx-wrapper .yhxx-content .table-wrapper {
+  padding: 20px 0;
+}
+.yhxx-wrapper .yhxx-content .table-wrapper .table-btns {
+  margin-bottom: 20px;
+}
+.yhxx-wrapper .yhxx-content .table-wrapper .table-btns .register-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 28px;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 12px;
+  background-color: #5584ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.yhxx-wrapper .yhxx-content .table-wrapper .table-btns .delete-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 28px;
+  border: 1px solid #5584ff;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #5584ff;
+}
+.yhxx-wrapper .layui-table-page > div {
+  height: 26px;
+  float: right;
+}

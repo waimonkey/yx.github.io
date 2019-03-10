@@ -1,0 +1,187 @@
+.crumbs-wrapper {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.usermanage-wrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  height: calc(100% - 60px);
+}
+.usermanage-wrapper .usermanage-content {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.usermanage-wrapper .usermanage-content .title {
+  font-size: 20px;
+  color: #000000;
+}
+.usermanage-wrapper .usermanage-content .title span {
+  float: left;
+}
+.usermanage-wrapper .usermanage-content .title button {
+  float: left;
+  margin-left: 10px;
+  background: #5584ff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  font-size: 12px;
+  color: #fff;
+  padding: 5px 15px;
+}
+.usermanage-wrapper .usermanage-content .title .buttons {
+  float: left;
+  margin-left: 10px;
+}
+.usermanage-wrapper .usermanage-content .title .buttons ul li {
+  float: left;
+  font-size: 12px;
+  width: 75px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #5584ff;
+  color: #5584ff;
+  border-right: none;
+  cursor: pointer;
+}
+.usermanage-wrapper .usermanage-content .title .buttons ul li:last-child {
+  border-radius: 0px 3px 3px 0px;
+  border-right: 1px solid #5584ff;
+}
+.usermanage-wrapper .usermanage-content .title .buttons ul li:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.usermanage-wrapper .usermanage-content .title .search-wrapper {
+  float: right;
+}
+.usermanage-wrapper .usermanage-content .title .search-wrapper input {
+  background: #eef0f5;
+  width: 200px;
+  height: 28px;
+  border-radius: 28px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  font-size: 12px;
+}
+.usermanage-wrapper .usermanage-content .table-wrapper {
+  padding: 20px 0;
+}
+.usermanage-wrapper .usermanage-content .table-wrapper .table-btns {
+  margin-bottom: 20px;
+}
+.usermanage-wrapper .usermanage-content .table-wrapper .table-btns .add-btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px 10px;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 12px;
+  background-color: #5584ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.usermanage-wrapper .usermanage-content .table-wrapper .table-btns .delete-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 28px;
+  border: 1px solid #5584ff;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #5584ff;
+}
+.usermanage-wrapper .layui-table-page > div {
+  height: 26px;
+  float: right;
+}
+#add-user-info,
+#role-authorize,
+#fun-authorize {
+  border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0px 0px;
+  padding-bottom: 30px;
+}
+#add-user-info ul,
+#role-authorize ul,
+#fun-authorize ul {
+  padding: 20px 30px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+#add-user-info ul li,
+#role-authorize ul li,
+#fun-authorize ul li {
+  display: flex;
+  margin-bottom: 15px;
+}
+#add-user-info ul li span,
+#role-authorize ul li span,
+#fun-authorize ul li span {
+  display: inline-block;
+  width: 90px;
+  color: #7f7f7f;
+  text-align: right;
+}
+#add-user-info ul li span b,
+#role-authorize ul li span b,
+#fun-authorize ul li span b {
+  margin-right: 5px;
+  color: #ff3000;
+}
+#add-user-info ul li input,
+#role-authorize ul li input,
+#fun-authorize ul li input {
+  flex: 1;
+  border: 1px solid #c4c6cf;
+  border-radius: 3px;
+  height: 28px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+#add-user-info .buttons,
+#role-authorize .buttons,
+#fun-authorize .buttons {
+  text-align: right;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+#add-user-info .buttons .sure,
+#role-authorize .buttons .sure,
+#fun-authorize .buttons .sure {
+  background-image: linear-gradient(0deg, #5584ff 2%, #7098ff 100%);
+  border: 1px solid #4372ec;
+  box-shadow: 0 1px 1px 0 rgba(19, 31, 21, 0.1), inset 0 2px 0 0 rgba(255, 255, 255, 0.06);
+  border-radius: 4px;
+  padding: 8px 25px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 22px;
+  margin-left: 10px;
+}
+#add-user-info .buttons .cancle,
+#role-authorize .buttons .cancle,
+#fun-authorize .buttons .cancle {
+  margin-left: 10px;
+  background-image: linear-gradient(-1deg, #f6f7f9 2%, #ffffff 100%);
+  border: 1px solid #d8dce6;
+  box-shadow: 0 1px 1px 0 rgba(22, 29, 37, 0.05), inset 0 2px 0 0 rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  font-size: 14px;
+  color: #3e3f42;
+  text-align: center;
+  line-height: 22px;
+  padding: 8px 25px;
+  cursor: pointer;
+}
+#add-user-info #xtree1,
+#role-authorize #xtree1,
+#fun-authorize #xtree1 {
+  padding: 20px;
+}

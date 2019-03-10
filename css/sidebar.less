@@ -1,0 +1,65 @@
+.sidebar-wrapper {
+  height: 100%;
+  width: 240px;
+  background-image: url("../img/yihaiku_left_bar_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  .nav-tree {
+    height: 100%;
+    margin-right: 0;
+    width: 240px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    .nav-item {
+      a {
+        display: block;
+        height: 42px;
+        width: 200px;
+        box-sizing: border-box;
+        line-height: 42px;
+        color: #fff;
+        padding: 0 8px;
+        &:hover {
+          background-color: transparent;
+        }
+        b {
+          float: left;
+          font-size: 20px;
+          margin-right: 5px;
+          line-height: 42px;
+          vertical-align: middle;
+        }
+        span {
+          float: left;
+        }
+        i {
+          float: right;
+          line-height: 42px;
+        }
+      }
+    }
+    .nav-child {
+      background: transparent !important;
+      a {
+        display: inline-block;
+        width: 200px;
+        box-sizing: border-box;
+        height: 42px;
+        line-height: 42px;
+        color: #fff;
+        padding-left: 40px;
+
+        &:hover {
+          background: #5584ff;
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 4px;
+        }
+        &.active {
+          background: #5584ff;
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}

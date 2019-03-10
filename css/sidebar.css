@@ -1,0 +1,62 @@
+.sidebar-wrapper {
+  height: 100%;
+  width: 240px;
+  background-image: url("../img/yihaiku_left_bar_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sidebar-wrapper .nav-tree {
+  height: 100%;
+  margin-right: 0;
+  width: 240px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+.sidebar-wrapper .nav-tree .nav-item a {
+  display: block;
+  height: 42px;
+  width: 200px;
+  box-sizing: border-box;
+  line-height: 42px;
+  color: #fff;
+  padding: 0 8px;
+}
+.sidebar-wrapper .nav-tree .nav-item a:hover {
+  background-color: transparent;
+}
+.sidebar-wrapper .nav-tree .nav-item a b {
+  float: left;
+  font-size: 20px;
+  margin-right: 5px;
+  line-height: 42px;
+  vertical-align: middle;
+}
+.sidebar-wrapper .nav-tree .nav-item a span {
+  float: left;
+}
+.sidebar-wrapper .nav-tree .nav-item a i {
+  float: right;
+  line-height: 42px;
+}
+.sidebar-wrapper .nav-tree .nav-child {
+  background: transparent !important;
+}
+.sidebar-wrapper .nav-tree .nav-child a {
+  display: inline-block;
+  width: 200px;
+  box-sizing: border-box;
+  height: 42px;
+  line-height: 42px;
+  color: #fff;
+  padding-left: 40px;
+}
+.sidebar-wrapper .nav-tree .nav-child a:hover {
+  background: #5584ff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.sidebar-wrapper .nav-tree .nav-child a.active {
+  background: #5584ff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}

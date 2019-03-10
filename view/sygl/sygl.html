@@ -1,0 +1,83 @@
+<link rel="stylesheet" href="../../lib/layui/layui.css" />
+<script src="../../lib/cityPicker/js/city-picker.data.js"></script>
+<script src="../../lib/cityPicker/js/city-picker.js"></script>
+
+<link rel="stylesheet" href="../../lib/cityPicker/css/city-picker.css" />
+<!-- <link rel="stylesheet" href="../../css/yhxx.css" /> -->
+<!-- 面包屑 -->
+<div class="crumbs-wrapper">
+  <span class="layui-breadcrumb">
+    <a href="javascrip:;">遗骸受理</a>
+    <a><cite>试验管理</cite></a>
+  </span>
+</div>
+<!-- 内容 -->
+<div class="sygl-wrapper">
+  <div class="sygl-content">
+    <div class="title">实验管理信息</div>
+    <div class="search-form">
+      <div class="subtitle">搜索</div>
+      <form class="layui-form search-form-item  clearfix">
+        <ul class="search-form-item clearfix">
+          <li>
+            <input
+              type="text"
+              name="title"
+              required
+              lay-verify="required"
+              placeholder="请输入遗骸编号"
+              autocomplete="off"
+              class="layui-input"
+            />
+          </li>
+          <li>
+            <input
+              type="text"
+              name="title"
+              required
+              lay-verify="required"
+              placeholder="实验编号"
+              autocomplete="off"
+              class="layui-input"
+            />
+          </li>
+          <li>
+            <input
+              type="text"
+              placeholder="实验时间 - 实验时间"
+              class="layui-input"
+              id="sygltime"
+            />
+          </li>
+          <li>
+            <select name="sex" lay-verify="required">
+              <option value="">请选择实验方法</option>
+              <option value="0">请选择实验方法1</option>
+              <option value="1">请选择实验方2</option>
+            </select>
+          </li>
+          <li>
+              <div class="yhxx-btns">
+                  <button class="search-btn">搜索</button>
+                  <button class="reset-btn">重置</button>
+                </div>
+          </li>
+        </ul>
+      </form>
+    </div>
+    
+    <div class="table-wrapper">
+      <div class="table-btns">
+        <button id="add-btn" class="add-btn">添加记录</button>
+        <button class="add-btn view-all-recore-btn">查看所有记录</button>
+        <button class="delete-btn">删除</button>
+      </div>
+      <table id="demo" lay-filter="test"></table>
+    </div>
+  </div>
+</div>
+<script src="../../lib/layui/layui.all.js"></script>
+<script src="./view/sygl/sygl.js"></script>
+<script type="text/html" id="titleTpl">
+  <a href="javascript:;" title="sygl-syinfo" class="layui-table-link">{{d.score}}</a>
+</script>

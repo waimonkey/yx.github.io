@@ -1,0 +1,104 @@
+<link rel="stylesheet" href="../../lib/layui/layui.css" />
+<script src="../../lib/cityPicker/js/city-picker.data.js"></script>
+<script src="../../lib/cityPicker/js/city-picker.js"></script>
+
+<link rel="stylesheet" href="../../lib/cityPicker/css/city-picker.css" />
+<!-- <link rel="stylesheet" href="../../css/yhxx.css" /> -->
+<!-- 面包屑 -->
+<div class="crumbs-wrapper">
+  <span class="layui-breadcrumb">
+    <a href="">系统管理</a>
+    <a><cite>用户管理</cite></a>
+  </span>
+</div>
+<!-- 内容 -->
+<div class="usermanage-wrapper">
+  <div class="usermanage-content">
+    <div class="title clearfix">
+      <span>用户管理</span>
+      <button class="add">+ 添加</button>
+      <div class="buttons">
+        <ul class="clearfix">
+          <li>修改</li>
+          <li>删除</li>
+          <li>修改密码</li>
+          <li class="role-authorize-btn">角色授权</li>
+          <li class="fun-authorize-btn">功能授权</li>
+        </ul>
+      </div>
+      <div class="search-wrapper">
+        <!-- <i class="layui-icon layui-icon-search"></i> -->
+        <input type="search" />
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table id="demo" lay-filter="test"></table>
+    </div>
+  </div>
+</div>
+<!-- 弹出添加-->
+<div id="add-user-info">
+  <ul>
+    <li>
+      <span><b>*</b>账户名称：</span>
+      <input type="text" placeholder="请输入系统账户名称" />
+    </li>
+    <li>
+      <span><b>*</b>姓名：</span>
+      <input type="text" placeholder="请输入姓名" />
+    </li>
+    <li>
+      <span><b>*</b>登录密码：</span>
+      <input type="password" placeholder="请输入登录密码" />
+    </li>
+    <li>
+      <span><b>*</b>确认密码：</span>
+      <input type="password" placeholder="请再次输入登录密码" />
+    </li>
+    <li>
+      <span><b>*</b>固定电话：</span>
+      <input type="text" placeholder="请输入座机号码" />
+    </li>
+    <li>
+      <span><b>*</b>手机号码：</span>
+      <input type="text" placeholder="请输入手机号码" />
+    </li>
+  </ul>
+  <div class="buttons">
+    <button class="sure">确认</button>
+    <button class="cancle">取消</button>
+  </div>
+</div>
+<!-- 角色授权 -->
+<form class="layui-form" id="role-authorize">
+  <ul >
+    <li>
+      <input type="radio" name="role" title="管理员" />
+    </li>
+    <li>
+      <input type="radio" name="role" title="受理人员" />
+    </li>
+    <li>
+      <input type="radio" name="role" title="采样人员" />
+    </li>
+    <li>
+      <input type="radio" name="role" title="实验人员" />
+    </li>
+  </ul>
+  <div class="buttons">
+    <button class="sure">确认</button>
+    <button class="cancle">取消</button>
+  </div>
+</form>
+<!-- 功能授权 -->
+<form  class="layui-form" id="fun-authorize">
+  <div id="xtree1" class="xtree_contianer"></div>
+  <div class="buttons">
+    <button class="sure">确认</button>
+    <button class="cancle">取消</button>
+  </div>
+</form>
+<script src="../../lib/layui/layui.all.js"></script>
+<script src="../../lib/layui-stree.js"></script>
+<script src="./view/usermanage/usermanage.js"></script>

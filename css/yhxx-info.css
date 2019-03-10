@@ -1,0 +1,137 @@
+.crumbs-wrapper {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.yhxx-info-wrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  height: calc(100% - 60px);
+}
+.yhxx-info-wrapper .yhxx-info-content {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.yhxx-info-wrapper .yhxx-info-content .title {
+  font-size: 20px;
+  color: #000000;
+}
+.yhxx-info-wrapper .yhxx-info-content .title span {
+  float: left;
+}
+.yhxx-info-wrapper .yhxx-info-content .title button {
+  float: right;
+  width: 80px;
+  height: 38px;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 12px;
+  background-color: #5584ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .subtitle {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eef0f5;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .subtitle b {
+  float: right;
+  cursor: pointer;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .register-form {
+  padding: 20px 0 30px 0;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .register-form .form-item li {
+  width: 20%;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .register-form .form-item li .form-label {
+  float: left;
+  width: 80px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: right;
+  font-size: 12px;
+  color: #929292;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .register-form .form-item li span {
+  width: calc(100% - 100px);
+  line-height: 38px;
+  font-size: 12px;
+  color: #000000;
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .register-form #preimg #uploadimg {
+  float: left;
+  width: 120px;
+  height: 96px;
+  background-image: url("../img/uploadbyn.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .register-form #preimg .layui-upload-img {
+  vertical-align: middle;
+  float: left;
+  width: 120px;
+  height: 96px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .register-form .twoline li {
+  width: 22%;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .register-form .twoline li > input {
+  float: left;
+  width: 65%;
+}
+.yhxx-info-wrapper .yhxx-info-content .search-form .register-form .twoline li select {
+  width: 40%;
+}
+.yhxx-info-wrapper .yhxx-info-content .yhxx-btns {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  text-align: right;
+  border-bottom: 1px solid #eef0f5;
+}
+.yhxx-info-wrapper .yhxx-info-content .yhxx-btns .save-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 38px;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 12px;
+  background-color: #5584ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.yhxx-info-wrapper .yhxx-info-content .yhxx-btns .close-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 38px;
+  border: 1px solid #5584ff;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #5584ff;
+}
+.yhxx-info-wrapper .layui-table-page > div {
+  height: 26px;
+  float: right;
+}

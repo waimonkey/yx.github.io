@@ -1,0 +1,111 @@
+<link rel="stylesheet" href="../../lib/layui/layui.css" />
+<script src="../../lib/cityPicker/js/city-picker.data.js"></script>
+<script src="../../lib/cityPicker/js/city-picker.js"></script>
+
+<link rel="stylesheet" href="../../lib/cityPicker/css/city-picker.css" />
+<!-- <link rel="stylesheet" href="../../css/yhxx.css" /> -->
+<!-- 面包屑 -->
+<div class="crumbs-wrapper">
+  <span class="layui-breadcrumb">
+    <a href="javascript:;">遗骸受理</a>
+    <a href="javascript:;" id="tozhdb">综合比对</a>
+    <a><cite>详情</cite></a>
+  </span>
+</div>
+<!-- 内容 -->
+<div class="zhdb-info-wrapper">
+  <div class="zhdb-info-content">
+    <div class="title clearfix">
+      <span>综合比对详情</span>
+      <button class="screport">生成报告</button>
+    </div>
+    <div class="search-form clearfix">
+      <div class="layui-form  clearfix">
+        <ul class="search-form-item clearfix">
+          <li class="clearfix">
+            <div class="subtitle">遗骸信息</div>
+          </li>
+          <li class="clearfix">
+            <label class="form-label">遗骸编号：</label>
+            <span>A100001</span>
+          </li>
+          <li class="class="clearfix"" >
+            <label class="form-label">姓名：</label>
+            <span>赵一</span>
+          </li>
+          <li class="class="clearfix"" >
+            <label class="form-label">发掘时间：</label>
+            <span>2017.08.12</span>
+          </li>
+          <li class="class="clearfix"" >
+            <label class="form-label">发掘地点：</label>
+            <span>战场</span>
+          </li>
+          <li class="class="clearfix"" >
+            <label class="form-label">样本类型：</label>
+            <span>腿骨</span>
+          </li>
+        </ul>
+        <ul class="search-form-item clearfix">
+          <li class="clearfix">
+            <div class="subtitle">亲属信息</div>
+          </li >
+          <li class="clearfix">
+            <label class="form-label">亲属编号：</label>
+            <span>Q100001</span>
+          </li>
+          <li class="clearfix">
+            <label class="form-label">姓名：</label>
+            <span>赵全</span>
+          </li>
+          <li class="clearfix">
+            <label class="form-label">身份证号：</label>
+            <span>***************1986</span>
+          </li>
+          <li class="clearfix">
+            <label class="form-label">与烈士关系：</label>
+            <span></span>
+          </li>
+              
+        </ul>
+       
+      </div>
+    </div>
+    <div class="relation-wrapper ">
+      <ul class="clearfix">
+        <li class="clearfix">
+          <label class="form-label">亲属编号：</label>
+          <span>Q100001</span>
+        </li>
+        <li class="clearfix">
+          <label class="form-label">计算点位数：</label>
+          <span>27</span>
+        </li>
+        <li class="clearfix" style="width:40%">
+          <label class="form-label">确认亲属关系：</label>
+          <div id="start"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="table-wrapper">
+      <div class="subtitle">比对结果</div>
+      <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+        <ul class="layui-tab-title">
+          <li class="layui-this">常染色体</li>
+          <li>Y染色体</li>
+          <li>X染色体</li>
+          <li>SNAP</li>
+          <li>线粒体</li>
+        </ul>
+        <div class="layui-tab-content">
+          <div class="layui-tab-item layui-show">
+            <table id="demo" lay-filter="test"></table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../../lib/layui/layui.all.js"></script>
+<script src="./view/zhdb-info/zhdb-info.js"></script>
+

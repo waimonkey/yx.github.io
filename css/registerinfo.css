@@ -1,0 +1,129 @@
+.crumbs-wrapper {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.regsiter-wrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  height: calc(100% - 60px);
+}
+.regsiter-wrapper .regsiter-content {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.regsiter-wrapper .regsiter-content .title {
+  font-size: 20px;
+  color: #000000;
+}
+.regsiter-wrapper .regsiter-content .search-form .subtitle {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eef0f5;
+}
+.regsiter-wrapper .regsiter-content .search-form .subtitle b {
+  float: right;
+  cursor: pointer;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form {
+  padding: 20px 0 30px 0;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form .form-item li {
+  width: 30%;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form .form-item li .form-label {
+  float: left;
+  width: 60px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: right;
+  font-size: 12px;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form .form-item li > input {
+  float: left;
+  width: 65%;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form .form-item li .layui-form-select {
+  position: relative;
+  width: 40%;
+  float: left;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form .form-item li .layui-textarea {
+  min-height: 100px;
+  height: auto;
+  line-height: 20px;
+  padding: 6px 10px;
+  resize: vertical;
+  width: 80%;
+  float: left;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form #preimg #uploadimg {
+  float: left;
+  width: 120px;
+  height: 96px;
+  background-image: url('../img/uploadbyn.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form #preimg .layui-upload-img {
+  vertical-align: middle;
+  float: left;
+  width: 120px;
+  height: 96px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form .twoline li {
+  width: 22%;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form .twoline li > input {
+  float: left;
+  width: 65%;
+}
+.regsiter-wrapper .regsiter-content .search-form .register-form .twoline li select {
+  width: 40%;
+}
+.regsiter-wrapper .regsiter-content .yhxx-btns {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  text-align: right;
+  border-bottom: 1px solid #eef0f5;
+}
+.regsiter-wrapper .regsiter-content .yhxx-btns .save-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 38px;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 12px;
+  background-color: #5584ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.regsiter-wrapper .regsiter-content .yhxx-btns .close-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 38px;
+  border: 1px solid #5584ff;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #5584ff;
+}
+.regsiter-wrapper .layui-table-page > div {
+  height: 26px;
+  float: right;
+}

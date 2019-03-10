@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="../../lib/layui/layui.css" />
+<script src="../../lib/cityPicker/js/city-picker.data.js"></script>
+<script src="../../lib/cityPicker/js/city-picker.js"></script>
+
+<link rel="stylesheet" href="../../lib/cityPicker/css/city-picker.css" />
+<!-- <link rel="stylesheet" href="../../css/yhxx.css" /> -->
+<!-- 面包屑 -->
+<div class="crumbs-wrapper">
+  <span class="layui-breadcrumb">
+    <a href="javascript:;">遗骸受理</a>
+    <a href="javascript:;" id="tosygl" >实验管理 </a>
+    <a><cite>查看实验记录</cite></a>
+  </span>
+</div>
+<!-- 内容 -->
+<div class="viewsyrecore-wrapper">
+  <div class="viewsyrecore-content">
+    <div class="title">
+      <span>查看实验记录</span>
+      <button class="delete-btn">删除</button>
+      <button class="add-sy-btn">添加记录</button>
+    </div>
+    <div class="table-wrapper">
+      <table id="demo" lay-filter="test"></table>
+    </div>
+  </div>
+</div>
+<script src="../../lib/layui/layui.all.js"></script>
+<script src="./view/viewsyrecore/viewsyrecore.js"></script>
+<script type="text/html" id="titleTpl">
+  <a href="javascript:;" title="sygl-syinfo" class="layui-table-link">{{d.score}}</a>
+</script>

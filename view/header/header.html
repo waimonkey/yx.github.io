@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="../../lib/fonts/style.css" />
+<!-- <link rel="stylesheet" href="../../css/header.css" /> -->
+
+<div class="header-wrapper">
+  <div class="logo">
+    <img src="../img/logo_page.png" alt="" />
+  </div>
+  <div class="avatar-wrapper">
+    <div class="avatat-content clearfix">
+      <img src="../img/Avatar.png" alt="" />
+      <span>管理员</span>
+      <b class="icon-arrow_bottom"></b>
+    </div>
+    <div class="avatat-list">
+      <ul>
+        <li>退出</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  $(function() {
+    $(".avatat-content").click(function() {
+      $(".avatat-list").toggle();
+    });
+  });
+</script>
